@@ -1,6 +1,9 @@
 program DUnitTestProject;
 
-{ $DEFINE CONSOLE_TESTRUNNER}
+// Remove line bellow to run DUnit using GUI Test runner
+{$DEFINE CONSOLE_TESTRUNNER}
+// -----------------------------------------------------
+
 
 {$IFDEF CONSOLE_TESTRUNNER}
 {$APPTYPE CONSOLE}
